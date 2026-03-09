@@ -19,4 +19,4 @@ availability_zones   = ["us-east-1a", "us-east-1b"]
 
 # EC2 Bastion
 bastion_instance_type = "t2.micro"
-bastion_key_name      = "YOUR_KEY_PAIR_NAME"   # Replace with your actual AWS key pair name
+bastion_key_name      = "AnthonyMiller"   # Replace with your actual AWS key pair name
