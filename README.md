@@ -78,7 +78,7 @@ tfPortfolioProject/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/aws-vpc-terraform.git
+git clone https://github.com/AnthonyMillerGit/terraformInterviewProject.git
 cd aws-vpc-terraform
 ```
 
