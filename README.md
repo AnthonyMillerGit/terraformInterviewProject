@@ -8,9 +8,9 @@ A production-style AWS network infrastructure built with Terraform, demonstratin
 
 ```
                           ┌─────────────────────────────────────────────┐
-                          │                   AWS VPC                    │
-                          │              (10.0.0.0/16)                   │
-                          │                                              │
+                          │                   AWS VPC                   │
+                          │              (10.0.0.0/16)                  │
+                          │                                             │
                           │   ┌──────────────┐   ┌──────────────┐       │
               Internet ───┼──▶│ Public Sub 1 │   │ Public Sub 2 │       │
                           │   │ 10.0.1.0/24  │   │ 10.0.2.0/24  │       │
@@ -19,7 +19,7 @@ A production-style AWS network infrastructure built with Terraform, demonstratin
                           │   │  [Bastion]   │   │              │       │
                           │   │  [NAT GW]    │   │              │       │
                           │   └──────┬───────┘   └──────────────┘       │
-                          │          │ (NAT)                             │
+                          │          │ (NAT)                            │
                           │   ┌──────▼───────┐   ┌──────────────┐       │
                           │   │ Private Sub 1│   │ Private Sub 2│       │
                           │   │ 10.0.10.0/24 │   │ 10.0.20.0/24 │       │
@@ -27,7 +27,7 @@ A production-style AWS network infrastructure built with Terraform, demonstratin
                           │   │              │   │              │       │
                           │   │  [App/DB]    │   │  [App/DB]    │       │
                           │   └──────────────┘   └──────────────┘       │
-                          │                                              │
+                          │                                             │
                           └─────────────────────────────────────────────┘
 ```
 
